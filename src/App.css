@@ -626,76 +626,146 @@ nav > ul {
 
 
 @media (max-width: 480px) {
-  .logoContainerSena {
-    height: 18rem;
+  .ContentApp {
+    width: 50%;
 }
-  .ContainerContent {
-    width: 65%;
+  .logoContainer {
+    display: flex;
+    width: 50%;
+    margin: 12px;
 }
-p {
-  display: flex;
-  width: 65%;
+.ContainerContent {
+  width: 100%;
 }
-.textContainer {
-  justify-content: flex-start;
-}
-.imgProfile {
-  width: 160px;
-}
-.container {
-
-display: flex;
-    flex-direction: column;
-}
-
-.box-image1, .box-image2, .box-image3, .box-image4 {
-  margin: 2vh 7vh;
-}
-
-.box-text1, .box-text2, .box-text3, .box-text4 {
-  padding: 32px;
-}
-.containerReferences {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  width: 50%;
-}
-.ContainerReferences {
+.ContainerProfile {
   display: flex;
   flex-direction: column;
+  margin: 0 1vh;
 }
-
-.ReferencesContent {
-  display: flex;
-  align-items: center;
+.logoProfile {
+  width: 13px;
+  height: 71px;
+  margin: 8px;
 }
-
-.box1References, .box2References, .box3References, .box4References {
-  width: 250px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 10px;
-  padding: 20px 40px;
-  text-align: center;
+.logoAndTitleContainer h1 {
+  font-size: 1rem;
+  padding: 1rem;
+}
+h1 {
+  font-size: 1rem;
+  width: 50%;
+}
+b{
+  width: 50%;
 }
 nav > ul {
-  margin: 1rem;
-}
-.ContainerExperience {
-  display: flex;
-  flex-direction: column;
-  margin: 0 5vh;
   width: 50%;
 }
+a {
+  padding: 1px;
+  margin: 0;
+  width: 10%;
+}
 
-.progressContainer {
+.logoContainerSena {
+  height: 13rem;
+  width: 50%;
+}
+p {
+  padding: 0 59px;
+  width: 100%;
+}
+
+.ProfileContentText {
+  width: 5%;
+  margin: 0 40px;
+}
+
+.textContainer {
+  width: 50%;
+}
+.text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
+}
+.text p{
+  width: 5%;
+}
+
+.text h1 {
+  color: #39a900;
+  display: block; 
+  margin: 0 40px;
+}
+
+.logoAndTitleContainer h1 {
+  font-size: 1rem;
+  padding: 10px;
+}
+.box1, .box2, .box3, .box4 {
+  width: 15vh;
+  margin-left: -32px;
+}
+.box-image1, .box-image2, .box-image3, .box-image4 {
+  margin: 1vh 15vh;
+}
+.box-text1, .box-text2, .box-text3, .box-text4 {
+  padding: 12px;
+  width: 10%;
+}
+.box-image1, .box-image2, .box-image3, .box-image4 {
+  margin: 1vh 2vh;
+}
+.logoAndTitleContainerReferences h1 {
+  margin: 0;
+  font-size: 1rem;
+}
+.ContainerReferences {
+  width: 40%;
+}
+.containerReferences {
+  margin-top: 5px;
+  width: 10vh;
+}
+.box1References, .box2References, .box3References, .box4References {
+  width: 100%;
+  margin: 3px;
+  padding: 23px;
+}
+.box-image1References, .box-image2References, .box-image3References, .box-image4References {
+  width: 15%;
+}
+.box-title1References, .box-title2References, .box-title3References, .box-title4References {
+  font-size: 15px;
+}
+.box-text1References, .box-text2References, .box-text3References, .box-text4References p{
+  text-align: center;
+  background-color: rgb(243, 255, 236);
+  margin: 0;
+  width: 10vh;
+}
+.box-text1References, .box-text2References, .box-text3References, .box-text4References b {
+  width: 50%;
+  font-size: 1vh;
+}
+.imgProfile {
+  width: 5vh;
+}
+.progressText {
+  text-align: center;
+  font-size: 1rem;
+}
+.progressText svg {
+  width: 109px;
+  height: 40px;
+}
+.logoAndTitleContainerExperience h1 {
+  font-size: 1rem;
+  padding: 1rem;
+}
+.logoExperience {
+  width: 30px;
+  height: 30px;
+
 }
 }
