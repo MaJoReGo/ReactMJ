@@ -1,0 +1,42 @@
+.containerReferences {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada caja de referencia */
+  .box1References,
+  .box2References,
+  .box3References,
+  .box4References {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Ajuste del tamaño del título h1 */
+  .box-title1References,
+  .box-title2References,
+  .box-title3References,
+  .box-title4References {
+    font-size: 18px;
+  }
+  
+  /* Ajuste del tamaño del icono FaUser */
+  .box-image1References svg,
+  .box-image2References svg,
+  .box-image3References svg,
+  .box-image4References svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Ajuste del color del icono de WhatsApp */
+  .containerReferences a {
+    color: black;
+  }

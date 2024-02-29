@@ -1,0 +1,42 @@
+.progressContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.progressItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.progressText {
+  text-align: center;
+  font-size: 24px;
+}
+
+.progressText svg {
+  width: 40px;
+  height: 40px;
+  color: #6ad6cd;
+}
+
+.progressBar {
+  width: 100px;
+  height: 10px;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #a1f3ec;
+}
+
+.progressImage {
+  margin-top: 5px;
+}

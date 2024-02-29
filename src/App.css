@@ -1,0 +1,701 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+.Container{
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  background-color: #39a900;
+    width: 100%;
+    position: sticky;
+}
+.ContentApp{
+  display: flex;
+  flex-direction: row;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #39a900;
+}
+
+.Logo {
+  margin: 2rem 9rem;
+    width: 15rem;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.Icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 8px;
+
+}
+
+.ProjectsContent {
+  display: flex;
+  margin: 0;
+}
+
+.logoContainerSena{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #39a900;
+  align-items: flex-end;
+}
+
+.LogoSena{
+  margin: 1rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 60%;
+}
+
+.ContainerContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagesPagesContainer {
+  display: flex;
+  flex-direction: column; 
+  background-color: #ffffff;
+  width: 100%;
+  justify-content: space-around;
+}
+
+nav {
+  margin: 0;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: column;
+  background-color: #39a900;
+  margin: 0 5rem;
+}
+
+ul > li {
+  list-style: none;
+  margin: 1vh;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: #8ce983;
+  margin: 1rem;
+  font-size: 2rem;
+}
+h2 b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #47ff2faa;
+}
+
+.imagesPagesContainer img {
+  display: flex;
+  margin: 1rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  justify-items: flex-start;
+}
+
+.imagesPagesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imagesPage1,.imagesPage2,.imagesPage3 {
+  margin: 10px;
+}
+
+.Text {
+  background-color: rgb(255, 255, 255);
+}
+
+.whatsappButton {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px;
+  z-index: 1000; 
+}
+
+.whatsappButton img {
+  width: 50px;
+  color:#39a900;
+}
+.ContainerProfile {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vh;
+}
+
+.ProfileContent {
+  display: flex;
+  align-items: center;
+}
+
+.ProfileContentText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoAndTitleContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logoAndTitleContainer h1 {
+  display: flex;
+  justify-content: center;
+  color: #39a900;
+  margin: 0;
+  font-size: 3rem;
+  padding: 30px;
+}
+
+.logoProfile {
+  width: 100px; 
+  margin: 20px;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.textContainer p{
+  margin: 0;
+  padding: 0 5pv;
+  background-color: #c1ff95;
+  color: #c1ff95;
+}
+.Text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+
+.ContainerProjects {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vh;
+}
+
+.ProjectsContent {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.ProjectsContentText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoAndTitleContainerProjects {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logoAndTitleContainerProjects h1 {
+  display: flex;
+  justify-content: center;
+  color: #39a900;
+  margin: 0;
+  font-size: 3rem;
+  padding: 30px;
+}
+
+.logoProjects {
+  width: 100px; 
+  margin: 20px;
+}
+
+.textContainerProjects {
+  align-items: center;
+  justify-content: center;
+  margin: 0; 
+}
+.textContainerProjects p{
+  margin: 0;
+  padding: 0 5pv;
+  background-color: #c1ff95;
+  color: #c1ff95;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1, .box2, .box3, .box4 {
+  width: 200px;
+  margin: 20px;
+  background-color: #39a900;
+}
+
+.box-image1, .box-image2, .box-image3, .box-image4 {
+  width: 100%;
+  background-color: #39a900;
+  margin: 10px 0;
+}
+
+.box-text1, .box-text2, .box-text3, .box-text4 {
+  text-align: center;
+  background-color: #39a900;
+  padding: 10px;
+  margin: 0;
+}
+a{
+  padding: 10px;
+  margin: 0; 
+}
+.containerReferences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1References, .box2References, .box3References, .box4References {
+  width: 200px;
+  margin: 20px;
+  background-color: rgb(243, 255, 236);
+}
+
+.box-image1References, .box-image2References, .box-image3References, .box-image4References {
+  width: 100%;
+  background-color: rgb(243, 255, 236);
+  margin: 10px 0;
+}
+
+.box-text1References, .box-text2References, .box-text3References, .box-text4References {
+  text-align: center;
+  background-color: rgb(243, 255, 236);
+  padding: 10px;
+  margin: 0;
+}
+a{
+  padding: 10px;
+  margin: 0; 
+}
+.ContainerReferences {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vh;
+}
+
+.ReferencesContent {
+  display: flex;
+  align-items: center;
+}
+
+.ReferencesContentText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoAndTitleContainerReferences {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logoAndTitleContainerReferences h1 {
+  display: flex;
+  justify-content: center;
+  color: #39a900;
+  margin: 0;
+  font-size: 3rem;
+  padding: 30px;
+}
+
+.logoReferences {
+  width: 100px; 
+  margin: 20px;
+}
+
+.textContainerReferences {
+  align-items: center;
+  justify-content: center;
+  margin: 0; 
+}
+.textContainerReferences p{
+  margin: 0;
+  padding: 0 5pv;
+  background-color: #c1ff95;
+  color: #c1ff95;
+}
+
+
+
+
+
+.containerExperience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1Experience, .box2Experience, .box3Experience, .box4Experience {
+  width: 200px;
+  margin: 20px;
+  background-color: rgb(243, 255, 236);
+}
+
+.box-image1Experience, .box-image2Experience, .box-image3Experience, .box-image4Experience {
+  width: 100%;
+  background-color: rgb(243, 255, 236);
+  margin: 10px 0;
+}
+
+.box-text1Experience, .box-text2Experience, .box-text3Experience, .box-text4Experience {
+  text-align: center;
+  background-color: rgb(243, 255, 236);
+  padding: 10px;
+  margin: 0;
+}
+a{
+  padding: 10px;
+  margin: 0; 
+}
+.ContainerExperience {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vh;
+}
+
+.ExperienceContent {
+  display: flex;
+  align-items: center;
+}
+
+.ExperienceContentText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoAndTitleContainerExperience {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logoAndTitleContainerExperience h1 {
+  display: flex;
+  justify-content: center;
+  color: #39a900;
+  margin: 0;
+  font-size: 3rem;
+  padding: 30px;
+}
+
+.logoExperience {
+  width: 100px; 
+  margin: 20px;
+}
+
+.textContainerExperience {
+  align-items: center;
+  justify-content: center;
+  margin: 0; 
+}
+.textContainerExperience p{
+  margin: 0;
+  padding: 0 5pv;
+  background-color: #c1ff95;
+  color: #c1ff95;
+}
+
+
+/* App.css */
+
+/* Estilos para el icono de WhatsApp flotante */
+.WhatsappIcon {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde abajo según necesites */
+  right: 20px; /* Ajusta la distancia desde la derecha según necesites */
+  z-index: 1000; /* Asegura que el icono esté por encima de otros elementos */
+  background-color: green; /* Cambia el color de fondo según prefieras */
+  color: white; /* Cambia el color del icono según prefieras */
+  width: 50px; /* Ajusta el ancho del icono según prefieras */
+  height: 50px; /* Ajusta el alto del icono según prefieras */
+  border-radius: 50%; /* Hace que el icono tenga forma circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; /* Evita que el enlace se subraye */
+}
+
+/* Estilos para el icono de WhatsApp al pasar el ratón */
+.WhatsappIcon:hover {
+  background-color: darkgreen; /* Cambia el color de fondo al pasar el ratón */
+}
+
+
+@media (max-width: 1440px) {
+  #root {
+    width: 100%;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+div {
+  display: flex;
+}
+  .Logo {
+    margin: 2rem;
+    width: 7rem;
+    height: 45%;
+}
+h1 {
+  font-size: 1rem;
+}
+nav > ul {
+  margin: 2rem;
+}
+.logoContainerSena {
+  height: 13rem;
+}
+.ContainerContent {
+  width: 75%;
+}
+
+.ContainerProfile {
+  width: 67%;
+}
+
+.ContainerProjects {
+  width: 65%;
+}
+.ContentApp {
+  width: 95%;
+}
+.text h1 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.box-image1, .box-image2, .box-image3, .box-image4 {
+  width: 5vh;
+  height: 5vh;
+  margin: 2vh 9vh;
+}
+
+.box-text1, .box-text2, .box-text3, .box-text4 {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.box1, .box2, .box3, .box4 {
+  margin: 8px;
+  background-color: #39a900;
+  display: inline-block; 
+}
+
+.container {
+  margin: 30px;
+}
+.box1References, .box2References, .box3References, .box4References {
+  display: inline-block; 
+}
+
+}
+
+
+@media (max-width: 768px) {
+  .logoContainerSena {
+    height: 18rem;
+}
+  .ContainerContent {
+    width: 65%;
+}
+p {
+  display: flex;
+  width: 65%;
+}
+.textContainer {
+  justify-content: flex-start;
+}
+.imgProfile {
+  width: 160px;
+}
+.container {
+
+display: flex;
+    flex-direction: column;
+}
+
+.box-image1, .box-image2, .box-image3, .box-image4 {
+  margin: 2vh 7vh;
+}
+
+.box-text1, .box-text2, .box-text3, .box-text4 {
+  padding: 32px;
+}
+.containerReferences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 50%;
+}
+.ContainerReferences {
+  display: flex;
+  flex-direction: column;
+}
+
+.ReferencesContent {
+  display: flex;
+  align-items: center;
+}
+
+.box1References, .box2References, .box3References, .box4References {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+}
+nav > ul {
+  margin: 1rem;
+}
+.ContainerExperience {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vh;
+  width: 50%;
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+}
+
+
+@media (max-width: 480px) {
+  .logoContainerSena {
+    height: 18rem;
+}
+  .ContainerContent {
+    width: 65%;
+}
+p {
+  display: flex;
+  width: 65%;
+}
+.textContainer {
+  justify-content: flex-start;
+}
+.imgProfile {
+  width: 160px;
+}
+.container {
+
+display: flex;
+    flex-direction: column;
+}
+
+.box-image1, .box-image2, .box-image3, .box-image4 {
+  margin: 2vh 7vh;
+}
+
+.box-text1, .box-text2, .box-text3, .box-text4 {
+  padding: 32px;
+}
+.containerReferences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 50%;
+}
+.ContainerReferences {
+  display: flex;
+  flex-direction: column;
+}
+
+.ReferencesContent {
+  display: flex;
+  align-items: center;
+}
+
+.box1References, .box2References, .box3References, .box4References {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+}
+nav > ul {
+  margin: 1rem;
+}
+.ContainerExperience {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vh;
+  width: 50%;
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+}

@@ -1,0 +1,71 @@
+.ContainerProfile {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vh;
+  }
+  
+  .ProfileContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ProfileContentText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logoAndTitleContainer {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logoAndTitleContainer h1 {
+    display: flex;
+    justify-content: center;
+    color: #39a900;
+    margin: 0;
+    font-size: 3rem;
+    padding: 30px;
+}
+  
+  .logoProfile {
+    width: 100px; 
+    margin: 20px;
+  }
+  
+  .textContainer {
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+  }
+  .textContainer p{
+    margin: 0;
+    padding: 0 5pv;
+    background-color: #c1ff95;
+    color: #c1ff95;
+  }
+  .text h1{
+    color: #39a900;
+  }
+  
+  .imgProfile {
+    width: 200px; 
+    height: auto;
+    margin: 30px 0;
+  }
+
+  .whatsappButton {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+  }
+  
+  .whatsappButton img {
+    width: 50px; 
+  }
+  
+  
+  
