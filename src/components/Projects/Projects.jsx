@@ -11,9 +11,10 @@ export const Projects = () => {
           <h1>Proyectos</h1>
         </div>
       </div>
-      <div className="textContainerProjects">
-        <p><b>_______________________________________________________________________________________________________________________________________</b></p>
-      </div>
+      <div class="textContainerReferences">
+  <p><b></b></p>
+</div>
+
       <div className="container">
         <div className="box1">
           <img className="box-image1" src={logo1} alt="Logo 1" />
