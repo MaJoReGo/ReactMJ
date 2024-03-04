@@ -12,9 +12,10 @@ export const Profile = () => {
           <h1>Perfil</h1>
         </div>
       </div>
-      <div className="textContainer">
-        <p><b>_______________________________________________________________________________________________________________________________________</b></p>
-      </div>
+      <div class="textContainerReferences">
+  <p><b></b></p>
+</div>
+
       <div className="ProfileContentText">
         <img className="imgProfile" src={foto} alt="fotoPerfil" />
         <div className="text">
