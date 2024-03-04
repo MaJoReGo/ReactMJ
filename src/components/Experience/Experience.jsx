@@ -13,9 +13,10 @@ export const Experience = () => {
           <h1>Experiencia</h1>
         </div>
       </div>
-      <div className="textContainerExperience">
-        <p><b>_______________________________________________________________________________________________________________________________________</b></p>
-      </div>
+      <div class="textContainerReferences">
+  <p><b></b></p>
+</div>
+
       <div className="progressContainer">
         <div className="progressItem">
           <div className="progressText">
@@ -64,5 +65,4 @@ export const Experience = () => {
     </div>
   );
 };
-
 
