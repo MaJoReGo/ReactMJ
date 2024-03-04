@@ -11,9 +11,9 @@ export const ImagesPage = () => (
           <h1>Inicio</h1>
         </div>
       </div>
-      <div className="textContainer">
-      <p><b>_______________________________________________________________________________________________________________________________________</b></p>
-    </div>
+      <div class="textContainerReferences">
+  <p><b></b></p>
+</div>
     </div>
   </div>
 );
