@@ -14,9 +14,10 @@ export const References = () => {
           <h1>Referencias</h1>
         </div>
       </div>
-      <div className="textContainerReferences">
-        <p><b>_______________________________________________________________________________________________________________________________________</b></p>
-      </div>
+      <div class="textContainerReferences">
+  <p><b></b></p>
+</div>
+
       <div className="containerReferences">
         <div className="box1References">
           <FaUser className="box-image1References" />
